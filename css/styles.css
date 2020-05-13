@@ -1,0 +1,36 @@
+                                                                :root {
+                                                                   --primary-text-color: #212121;
+                                                                   --title-text-color: #212121;
+                                                                   --accent-color: #2196F3;
+                                                                   --primary-bgc-color: #FFFFFFF;
+                                                               }
+                                                               
+                                                               body {
+                                                                   background-color: #FFFFFF;
+                                                                   color: var (--primary-text-color);
+                                                                   font-family: roboto, sans-serif;
+                                                                   color: rgba(red, green, blue, alpha) #212121;
+                                                               }
+                                                               
+                                                               ul {
+                                                                   list-style: none;
+                                                               }
+                                                               
+                                                               .logo {
+                                                                   color: #2196F3;
+                                                               }
+                                                               /*site nav*/
+                                                               
+                                                               .site-nav .link {
+                                                                   color: #212121;
+                                                               }
+                                                               
+                                                               .site-nav .link:hover,
+                                                               .site-nav .link:focus {
+                                                                   color: #2196F3;
+                                                               }
+                                                               
+                                                               .button {
+                                                                   color: var(--title-text-color);
+                                                                   bcg: var(--accent-color)
+                                                               }
