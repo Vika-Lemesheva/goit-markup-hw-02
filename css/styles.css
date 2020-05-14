@@ -63,6 +63,8 @@ ul {
     color: #2196f3;
 }
 
+
+}
 h2 {
     font-family: roboto;
     font-style: normal;
@@ -72,9 +74,7 @@ h2 {
     letter-spacing: 0.06em;
 }
 
-
 /*Button*/
-
 .button {
     color: var(--title-text-color);
     background: var(--primary-background-button);
@@ -85,10 +85,12 @@ h2 {
     font-style: normal;
     letter-spacing: 0.03em;
 }
-
+.button:hover {
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+}
 
 /*content*/
-
 .content {
     font-family: Roboto;
     font-style: normal;
@@ -98,9 +100,7 @@ h2 {
     letter-spacing: 0.03em;
 }
 
-
 /*Paragraph*/
-
 .paragraph {
     color: var(--title-text-grey);
     font-family: Roboto;
@@ -108,5 +108,15 @@ h2 {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+/*footer*/
+.adress {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
     letter-spacing: 0.03em;
 }
