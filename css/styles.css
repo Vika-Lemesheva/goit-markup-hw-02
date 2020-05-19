@@ -1,122 +1,150 @@
-/*цвет основного текста #212121*/
-
-
-/*вторичный цвет текста #757575*/
-
-
-/*белый текст #FFFFFF*/
-
- :root {
-    --primary-text-color: #212121;
-    --title-text-color: #212121;
-    --title-text-grey: #757575;
-    --accent-color: #2196F3;
-    --primary-background-color: #FFFFFF;
-    --primary-background-button: #F5F4FA;
-}
-
-body {
-    background-color: var (--primary-background-color);
-    color: var (--primary-text-color);
-    font-family: roboto, sans-serif;
-    Raleway,
-    sans-serif;
-}
-
-.logo-primary {
-    color: #2196F3;
-}
-
-.logo-link {
-    color: #212121;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-
-/*site nav*/
-
-.link {
-    color: #212121;
-    text-decoration: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-
-.site-nav .link:hover {
-    color: #2196F3;
-}
-
-.site-nav .link:focus {
-    color: #2196f3;
-}
-
-
-}
-h2 {
-    font-family: roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-}
-
-/*Button*/
-.button {
-    color: var(--title-text-color);
-    background: var(--primary-background-button);
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    letter-spacing: 0.03em;
-}
-.button:hover {
-    color: var(--primary-background-color);
-    background: var(--accent-color);
-}
-
-/*content*/
-.content {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-}
-
-/*Paragraph*/
-.paragraph {
-    color: var(--title-text-grey);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-}
-
-/*footer*/
-.adress {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.03em;
-}
+                            /*цвет основного текста #212121*/
+                            /*вторичный цвет текста #757575*/
+                            /*белый текст #FFFFFF*/
+                            
+                             :root {
+                                --primary-text-color: #212121;
+                                --title-text-color: #212121;
+                                --title-text-grey: #757575;
+                                --accent-color: #2196F3;
+                                --primary-background-color: #FFFFFF;
+                                --primary-background-button: #F5F4FA;
+                            }
+                            
+                            body {
+                                background-color: var (--primary-background-color);
+                                color: var (--primary-text-color);
+                                font-family: roboto, sans-serif;
+                                Raleway,
+                                sans-serif;
+                            }
+                            
+                            .logo-primary {
+                                color: #2196F3;
+                            }
+                            
+                            .logo-link {
+                                color: #212121;
+                                font-family: Raleway;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 26px;
+                                line-height: 31px;
+                                text-decoration: none;
+                            }
+                            
+                            ul {
+                                list-style: none;
+                            }
+                            
+                            h4 {
+                                text-decoration: none;
+                            }
+                            /*site nav*/
+                            
+                            .link {
+                                color: #212121;
+                                text-decoration: none;
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 16px;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .site-nav .link:hover {
+                                color: #2196F3;
+                            }
+                            
+                            .site-nav .link:focus {
+                                color: var(--primary-background-button);
+                            }
+                            /*feedbeack*/
+                            
+                            .feedbeack {
+                                color: var(--title-text-grey);
+                            }
+                            
+                            .feedbeack:hover {
+                                color: #2196f3;
+                            }
+                            
+                            .feedbeack:focus {
+                                color: var(--primary-background-button);
+                            }
+                            
+                            h1 {
+                                position: absolute;
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 44px;
+                                line-height: 60px;
+                                text-align: center;
+                                letter-spacing: 0.06em;
+                                text-transform: uppercase;
+                            }
+                            
+                            h2 {
+                                font-family: roboto;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 18px;
+                                line-height: 36px;
+                                letter-spacing: 0.06em;
+                            }
+                            /*Button*/
+                            
+                            .button {
+                                color: var(--title-text-color);
+                                background: var(--primary-background-button);
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-size: 16px;
+                                font-weight: 500;
+                                font-style: normal;
+                                letter-spacing: 0.03em;
+                                text-decoration: none;
+                            }
+                            
+                            .button:hover {
+                                color: var(--primary-background-color);
+                                background: var(--accent-color);
+                            }
+                            
+                            .button:focus {
+                                color: var(--title-text-grey);
+                                background: var(--primary-background-color);
+                            }
+                            /*content*/
+                            
+                            .content {
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 28px;
+                                letter-spacing: 0.03em;
+                            }
+                            /*Paragraph*/
+                            
+                            .paragraph {
+                                color: var(--title-text-grey);
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 30px;
+                                letter-spacing: 0.03em;
+                            }
+                            /*footer*/
+                            
+                            .adress {
+                                font-family: Roboto;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 28px;
+                                letter-spacing: 0.03em;
+                            }
