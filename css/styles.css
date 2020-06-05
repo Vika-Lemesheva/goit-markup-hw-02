@@ -1,215 +1,714 @@
-                                /*цвет основного текста #212121*/
-                                /*вторичный цвет текста #757575*/
-                                /*белый текст #FFFFFF*/
-                                
-                                 :root {
-                                    --primary-text-color: #212121;
-                                    --title-text-color: #212121;
-                                    --title-text-grey: #757575;
-                                    --accent-color: #2196F3;
-                                    --primary-background-color: #FFFFFF;
-                                    --primary-background-button: #F5F4FA;
-                                }
-                                
-                                html {
-                                    box-sizing: border-box;
-                                }
-                                
-                                body {
-                                    background-color: var (--primary-background-color);
-                                    color: var (--primary-text-color);
-                                    font-family: roboto, sans-serif;
-                                    sans-serif;
-                                    margin: 0;
-                                }
-                                
-                                .logo-primary {
-                                    color: #2196F3;
-                                }
-                                
-                                .logo-link {
-                                    color: #212121;
-                                    font-family: Raleway;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 26px;
-                                    line-height: 31px;
-                                    text-decoration: none;
-                                }
-                                
-                                ul {
-                                    list-style: none;
-                                }
-                                /*site nav*/
-                                
-                                .page-header {}
-                                
-                                .link {
-                                    color: #212121;
-                                    text-decoration: none;
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: 500;
-                                    font-size: 14px;
-                                    line-height: 16px;
-                                    letter-spacing: 0.02em;
-                                }
-                                
-                                .site-nav .link:hover {
-                                    color: #2196F3;
-                                }
-                                
-                                .site-nav .link:focus {
-                                    color: var(--primary-background-button);
-                                }
-                                /*feedbeack*/
-                                
-                                .feedbeack {
-                                    color: var(--title-text-grey);
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: 500;
-                                    font-size: 14px;
-                                    line-height: 16px;
-                                    letter-spacing: 0.02em;
-                                }
-                                
-                                .feedbeack:hover {
-                                    color: #2196f3;
-                                }
-                                
-                                .feedbeack:focus {
-                                    color: var(--primary-background-button);
-                                }
-                                
-                                .container {
-                                    margin-left: auto;
-                                    margin-right: auto;
-                                    width: 1140px;
-                                    outline: 2px solid tomato;
-                                }
-                                
-                                h1 {
-                                    margin-top: 0;
-                                    margin-bottom: 0;
-                                    margin-left: auto;
-                                    margin-right: auto;
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: 900;
-                                    font-size: 44px;
-                                    line-height: 60px;
-                                    letter-spacing: 0.06em;
-                                    background: tomato;
-                                }
-                                
-                                h2 {
-                                    font-family: roboto;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 36px;
-                                    line-height: 42px;
-                                    letter-spacing: 0.06em;
-                                }
-                                
-                                h3 {
-                                    font-family: roboto;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 18px;
-                                    line-height: 36px;
-                                    letter-spacing: 0.06em;
-                                }
-                                
-                                h4 {
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 14px;
-                                    line-height: 16px;
-                                    text-align: center;
-                                    letter-spacing: 0.03em;
-                                    text-transform: uppercase;
-                                }
-                                
-                                h5 {
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-size: 12px;
-                                    line-height: 24px;
-                                    letter-spacing: 0.03em;
-                                    color: var(--title-text-grey);
-                                }
-                                /*Button*/
-                                
-                                .big-button {
-                                    display: inline-block;
-                                    color: var(--primary-background-color);
-                                    background: var(--accent-color);
-                                    text-decoration: none;
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 16px;
-                                    line-height: 30px;
-                                    padding: 10px 32px;
-                                    border-radius: 4px;
-                                    position: absolute;
-                                    left: 732px;
-                                    top: 440px;
-                                }
-                                
-                                .button {
-                                    color: var(--title-text-color);
-                                    background: var(--primary-background-button);
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-size: 16px;
-                                    font-weight: 500;
-                                    font-style: normal;
-                                    letter-spacing: 0.03em;
-                                    text-decoration: none;
-                                    padding: 6px 22px;
-                                    border-radius: 4px;
-                                }
-                                
-                                .button:hover {
-                                    color: var(--primary-background-color);
-                                    background: var(--accent-color);
-                                }
-                                
-                                .button:focus {
-                                    color: var(--title-text-grey);
-                                    background: var(--primary-background-color);
-                                }
-                                /*content*/
-                                
-                                .content {
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 18px;
-                                    line-height: 28px;
-                                    letter-spacing: 0.03em;
-                                }
-                                /*Paragraph*/
-                                
-                                .paragraph {
-                                    color: var(--title-text-grey);
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 16px;
-                                    line-height: 30px;
-                                    letter-spacing: 0.03em;
-                                }
-                                /*footer*/
-                                
-                                .adress {
-                                    font-family: Roboto;
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 18px;
-                                    line-height: 28px;
-                                    letter-spacing: 0.03em;
-                                }
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-grey);
+}
+
+
+/*Button*/
+
+.big-button {
+    display: inline-block;
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.button {
+    color: var(--title-text-color);
+    background: var(--primary-background-button);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+}
+
+.button:focus {
+    color: var(--title-text-grey);
+    background: var(--primary-background-color);
+}
+
+
+/*content*/
+
+.content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+
+/*Paragraph*/
+
+.paragraph {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+/*footer*/
+
+.page-footer {
+    background: #2f303a;
+    padding-top: 48px;
+    padding-bottom: 21px;
+}
+
+.logo-footer {
+    color: #ffffff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 31px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.social {
+    color: #ffffff;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.adress {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 15px;
+}
+
+.social {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.text-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration: none;
+    color: var(--primary-background-button);
+}
+
+
+/*site nav*/
+
+.site-nav {
+    display: flex;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site-nav.link {
+    color: #212121;
+}
+
+.site-nav li {
+    margin-right: 50px;
+}
+
+ul.site-nav.list {
+    padding: 0px 0px 0px 0px;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .link:hover {
+    color: #2196f3;
+}
+
+.site-nav .link:focus {
+    color: var(--primary-background-button);
+}
+
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
+
+/*feedbeack*/
+
+.feedbeack {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feedbeack:hover {
+    color: #2196f3;
+}
+
+.feedbeack:focus {
+    color: var(--primary-background-button);
+}
+
+.section p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.comand p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 40;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+h2 {
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+h3 {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    marker: none;
+}
+
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-grey);
+}
+
+
+/*Button*/
+
+.big-button {
+    display: inline-block;
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 2px tomato;
+}
+
+.button {
+    color: var(--title-text-color);
+    background: var(--primary-background-button);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+}
+
+.button:focus {
+    color: var(--title-text-grey);
+    background: var(--primary-background-color);
+}
+
+
+/*content*/
+
+.content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+
+/*Paragraph*/
+
+.paragraph {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.clients {
+    display: flex;
+}
+
+
+/*footer*/
+
+.adress {
+    color: var(--primary-background-button);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+}
+
+.text-footer .footer {
+    background-color: #2f303a;
+    padding-top: 48px;
+    padding-bottom: 21px;
+}
+
+.copy-right {
+    text-align: center;
+}
+
+.logo-link {
+    color: #212121;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 85px;
+}
+
+.logo-primary {
+    color: #2196f3;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration: none;
+    color: var(--primary-background-button);
+}
+
+
+/*site nav*/
+
+.site-nav {
+    display: flex;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.site-nav.link {
+    color: #212121;
+}
+
+.site-nav li {
+    margin-right: 50px;
+}
+
+ul.site-nav.list {
+    padding: 0px 0px 0px 0px;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .link:hover {
+    color: #2196f3;
+}
+
+.site-nav .link:focus {
+    color: var(--primary-background-button);
+}
+
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
+
+/*feedbeack*/
+
+.feedbeack {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feedbeack:hover {
+    color: #2196f3;
+}
+
+.feedbeack:focus {
+    color: var(--primary-background-button);
+}
+
+.section p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.comand p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.hero {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 40;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+h2 {
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+h3 {
+    font-family: roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 0px;
+    marker: none;
+}
+
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-grey);
+}
+
+
+/*Button*/
+
+.big-button {
+    display: inline-block;
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 32px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 2px tomato;
+}
+
+.button {
+    color: var(--title-text-color);
+    background: var(--primary-background-button);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    padding: 6px 22px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+}
+
+.button:focus {
+    color: var(--title-text-grey);
+    background: var(--primary-background-color);
+}
+
+
+/*content*/
+
+.content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+
+/*Paragraph*/
+
+.paragraph {
+    color: var(--title-text-grey);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.clients {
+    display: flex;
+}
+
+
+/*footer*/
+
+.adress {
+    color: var(--primary-background-button);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #2f303a;
+    padding-top: 48px;
+    padding-bottom: 21px;
+}
+
+.copy-right {
+    text-align: center;
+}
